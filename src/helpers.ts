@@ -1,4 +1,4 @@
-import { walk as svelte_walk } from 'svelte/compiler';
+import { walk as svelte_walk } from 'estree-walker';
 
 import type { TemplateNode } from 'svelte/types/compiler/interfaces';
 import type { Node } from './types.js';
